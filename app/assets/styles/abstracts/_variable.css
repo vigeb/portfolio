@@ -1,10 +1,12 @@
 $color-default: #2f495e;
 $color-primary: #00b0ff;
 $color-primary-opacity-75: hsla(145, 100%, 39%, 0.75);
+$color-secondary: #0081cb;
 $color-third: #69e2ff;
 $white: #fff;
 $white-opacity-50: rgba(255, 255, 255, 0.5);
 $gray-200: #edf2f7;
 
 $shadow-default: 0 0 20px 0 rgba(0,0,0,.34902);
-$polygon: polygon(0 0,100% 0,100% 86%,0 98%);
+$drop-shadow-default: 2px 3px 3px #443f3f;
+$polygon: polygon(0% 0%, 95% 0, 0 96%);

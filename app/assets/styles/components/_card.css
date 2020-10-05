@@ -1,26 +1,34 @@
 .card {
 
     &__header {
-        display: flex;
-        margin-bottom: -2rem;
+        position: relative;
+        width: 100%;
+        height: 5rem;
+        margin-bottom: -5rem;
+    }
+
+    &__badge {
+        width: 30%;
+        height: 100%;
+        border-radius: .5rem;
+        clip-path: $polygon;
+        background-color: $color-primary;
     }
 
     &__title {
+        width: 100%;
+        height: 100%;
+        line-height: 5rem;
+        text-align: center;
+        position: absolute;
+        top: 0;
+        left: 0;
         font-weight: 600;
-        padding: .5rem 1rem;
-        border-radius: 1rem;
-        background-color: $color-third;
     }
 
     &__body {
-        margin-top: .5rem;
         width: 100%;
-        padding-left: 1rem;
-    }
-
-    &__content {
-        width: 100%;
-        padding: 2rem 1rem 1rem;
+        padding: 4rem 1rem 1rem;
         background-color: $white;
         border-radius: .5rem;
         box-shadow: $shadow-default;
