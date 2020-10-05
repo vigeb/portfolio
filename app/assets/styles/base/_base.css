@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 15px;
+}
+
+body {
+    font-size: 1rem;
+    font-family: 'Work Sans', sans-serif;
+    color: $color-default;
+    line-height: 1.7;
+}
+
+button, input {
+    outline: none;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+input, textarea {
+    border: 1px solid $color-default;
+    background-color: transparent;
+    
+    &:focus {
+        border: none;
+        outline: none;
+    }
+}
+
+a {
+    text-decoration: none;
+}
+
+svg {
+    vertical-align: middle;
+    display: inline;
+    fill: currentColor;
+}
+
+ul, ol {
+    list-style: none;
+}

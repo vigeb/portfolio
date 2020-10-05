@@ -4,7 +4,23 @@
   "description": "Portfolio",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack",
+    "dev:server": "webpack-dev-server --open"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "autoprefixer": "^10.0.1",
+    "css-loader": "^4.3.0",
+    "postcss": "^8.1.1",
+    "postcss-import": "^12.0.1",
+    "postcss-loader": "^4.0.3",
+    "postcss-nested": "^5.0.1",
+    "postcss-simple-vars": "^6.0.1",
+    "style-loader": "^1.3.0",
+    "webpack": "^4.44.2",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
   },
   "repository": {
     "type": "git",

@@ -1,0 +1,21 @@
+.section {
+
+    &-one {
+        width: 100%;
+        text-align: center;
+
+        &__cards {
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+        }
+    }
+
+    &__title {
+        text-transform: uppercase;
+    }
+
+    &__body {
+        margin: 1rem 5rem;
+    }
+}
