@@ -4,10 +4,12 @@
 @import "base/_fonts.css";
 
 @import "components/_card.css";
+@import "components/_contact.css";
 @import "components/_menu.css";
 @import "components/_nav.css";
 @import "components/_section.css";
 
+@import "layouts/_footer.css";
 @import "layouts/_header.css";
 @import "layouts/_main.css";
 @import "layouts/_row.css";

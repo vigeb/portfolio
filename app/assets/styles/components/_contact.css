@@ -1,0 +1,23 @@
+.contact {
+    &__item {
+        width: 100%;
+        display: flex;
+        align-items: center;
+
+        &-icon {
+            width: 2.5rem;
+            height: 2.5rem;
+            border-radius: 2.5rem;
+            line-height: 2.5rem;
+            text-align: center;
+            background-color: $color-primary;
+            color: $white;
+            margin-right: .5rem;
+        }
+
+        &-svg {
+            width: 1.5rem;
+            height: 1.5rem;
+        }
+    }
+}

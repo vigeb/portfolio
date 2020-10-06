@@ -2,6 +2,15 @@ const path = require('path')
 
 const postCSSPlugins = [
     require('postcss-import'),
+    [
+        require('postcss-preset-env'),
+        {
+            stage: 1,
+            features: {
+                'nesting-rules': true
+            }
+        }
+    ],
     require('postcss-simple-vars'),
     require('postcss-nested'),
     require('autoprefixer')
