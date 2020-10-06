@@ -1,18 +1,18 @@
 .section {
+    width: 100%;
+    background-color: $white-opacity-50;
+    border-radius: .5rem;
+    box-shadow: $shadow-default;
+    padding: 1.5rem 0;
 
     &-one {
-        width: 100%;
-        text-align: center;
-
-        &__cards {
-            width: 100%;
-            display: flex;
-            flex-wrap: wrap;
-        }
+        text-align: center; 
+        margin: 3rem 0;       
     }
 
     &__title {
         text-transform: uppercase;
+        font-size: 2rem;
     }
 
     &__body {

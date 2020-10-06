@@ -4,33 +4,46 @@
         position: relative;
         width: 100%;
         height: 5rem;
-        margin-bottom: -5rem;
-    }
 
-    &__badge {
-        width: 30%;
-        height: 100%;
-        border-radius: .5rem;
-        clip-path: $polygon;
-        background-color: $color-primary;
+        &-svg {
+            width: 100%;
+            height: 100%;
+        }
     }
 
     &__title {
-        width: 100%;
-        height: 100%;
-        line-height: 5rem;
-        text-align: center;
-        position: absolute;
-        top: 0;
-        left: 0;
+        text-transform: uppercase;
         font-weight: 600;
+
+        &-thumb {
+            width: 100%;
+            height: 5rem;
+            line-height: 5rem;
+            background-color: $color-primary;
+            color: $white;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            overflow: hidden;
+            border-top-left-radius: .5rem;
+            border-top-right-radius: .5rem;
+        }
     }
 
     &__body {
         width: 100%;
-        padding: 4rem 1rem 1rem;
         background-color: $white;
+        /*color: $white;*/
         border-radius: .5rem;
         box-shadow: $shadow-default;
+        transition: all .5s;
+
+        &:hover {
+            transform: translateY(-1rem);
+        }
+    }
+
+    &__text {
+        width: 100%;
+        padding: 1rem;
     }
 }

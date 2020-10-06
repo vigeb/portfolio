@@ -1,0 +1,23 @@
+.menu {
+    &-bottom {
+        position: fixed;
+        bottom: .5rem;
+        left: 0;
+        z-index: 10;
+        width: 100%;
+        padding: .5rem 1rem;
+        transition: all .5s;
+
+        &:hover {
+            transform: scale(1.1) translateY(-1rem);
+        }
+
+        &__board {
+            background-color: $white;
+            padding: .25rem 1rem;
+            border-radius: 4rem;
+            box-shadow: $shadow-default;
+            display: inline-block;
+        }
+    }
+}

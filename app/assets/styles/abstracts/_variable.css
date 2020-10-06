@@ -1,11 +1,13 @@
 $color-default: #2f495e;
 $color-primary: #00b0ff;
-$color-primary-opacity-75: hsla(145, 100%, 39%, 0.75);
+$color-primary-opacity-75:  hsla(199, 100%, 50%, 0.75);
 $color-secondary: #0081cb;
 $color-third: #69e2ff;
+$color-third-opacity-50: hsla(192, 100%, 71%, 0.5);
 $white: #fff;
 $white-opacity-50: rgba(255, 255, 255, 0.5);
 $gray-200: #edf2f7;
+$black: #000;
 
 $shadow-default: 0 0 20px 0 rgba(0,0,0,.34902);
 $drop-shadow-default: 2px 3px 3px #443f3f;
