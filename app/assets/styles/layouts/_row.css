@@ -3,6 +3,14 @@
     display: flex;
     flex-wrap: wrap;
 
+    &--equal-height {
+        display: table;
+    }
+
+    .col--equal-height {
+        display: table-cell;
+    }
+
     .col-12 {
         width: 100%;
         padding-right: .75rem;

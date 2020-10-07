@@ -42,6 +42,8 @@
     }
 
     &__body {
+        position: relative;
+        z-index: 1;
         width: 100%;
         background-color: $white;
         border-radius: .5rem;
@@ -75,8 +77,19 @@
         width: 100%;
     }
 
+    &__view-more {
+        cursor: pointer;
+        color: $color-primary;
+        font-weight: 600;
+
+        &:hover, &:active {
+            color: $color-secondary;
+        }
+    }
+
     &__avatar {
         width: 3rem;
+        min-width: 3rem;
         height: 3rem;
         line-height: 3rem;
         text-align: center;
@@ -102,6 +115,38 @@
 
         @media (min-width: 768px) {
             max-height: 20rem;
+        }
+    }
+
+    &__footer {
+        width: 100%;
+        position: relative;
+        z-index: 0;
+        transform: translateY(-1rem);
+        display: flex;
+        justify-content: center;
+    }
+
+    &__view-more-btn {
+        width: 4rem;
+        height: 3rem;
+        border-bottom-left-radius: 4rem;
+        border-bottom-right-radius: 4rem;
+        line-height: 3rem;
+        text-align: center;
+        background-color: $white;
+        color: $color-default;
+        box-shadow: $shadow-default;
+        transition: all .5s;
+
+        &:hover {
+            color: $color-primary;
+            transform: translateY(.5rem);
+        }
+
+        &-icon {
+            width: 2rem;
+            height: 2rem;
         }
     }
 }
