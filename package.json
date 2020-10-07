@@ -8,7 +8,8 @@
     "dev": "webpack-dev-server --open"
   },
   "dependencies": {
-    "colcade": "^0.2.0"
+    "colcade": "^0.2.0",
+    "lodash": "^4.17.20"
   },
   "devDependencies": {
     "autoprefixer": "^10.0.1",
