@@ -29,7 +29,7 @@ export default class RevealOnScroll {
         if (window.scrollY + this.browserHeight > item.offsetTop) {
             const percentY = (item.getBoundingClientRect().top / this.browserHeight) * 100
 
-            if (percentY < 99) {
+            if (percentY < 95) {
                 item.classList.add('card--reveal-visible')
                 item.isRevealed = true
 

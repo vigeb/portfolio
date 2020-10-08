@@ -1,14 +1,10 @@
+import throttle from 'lodash/throttle'
+
 class ScrollToTop {
     constructor () {
         this.toTopButton = document.querySelector(".scroll-to-top")
-        this.scrollDown()
+        this.scrollThrottle = throttle(this.displayToTopButton, 300).bind(this)
         this.activateScrollToTop()
-    }
-
-    scrollDown() {
-        window.addEventListener('scroll', () => {
-            this.displayToTopButton()
-        })
     }
 
     displayToTopButton() {
